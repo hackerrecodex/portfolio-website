@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-center text-white">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p class="lead">I'm a passionate web developer creating awesome websites.</p>
+      <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/profile.jpg" alt="Your Name" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <p>Hi, I'm [Your Name], a web developer with expertise in HTML, CSS, JavaScript, and Bootstrap. I love building responsive and user-friendly websites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-code fa-3x mb-3"></i>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, Bootstrap</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-palette fa-3x mb-3"></i>
+          <h3>UI/UX Design</h3>
+          <p>Figma, Adobe XD</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-tools fa-3x mb-3"></i>
+          <h3>Tools</h3>
+          <p>Git, VS Code, Terminal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <!-- Project Cards -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">A brief description of the project.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other projects -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Testimonials</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <blockquote class="blockquote text-center">
+              <p>"Amazing work! Highly recommended."</p>
+              <footer class="blockquote-footer">Client Name</footer>
+            </blockquote>
+          </div>
+          <!-- Repeat for other testimonials -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="mb-3">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

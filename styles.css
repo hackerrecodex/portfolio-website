@@ -1,0 +1,21 @@
+/* Custom Styles */
+.hero-section {
+  background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+  padding: 150px 0;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
